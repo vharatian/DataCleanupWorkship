@@ -1,4 +1,4 @@
-def get_commit_changes(repository_path):
+def foo(repository_path):
     repo = Repository(repository_path)
 
     commit_changes = defaultdict(lambda: {'added': 0, 'removed': 0, 'equal': 0, 'ref': 0})
