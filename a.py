@@ -1,4 +1,4 @@
-def ges_commit(repository_path):
+def _commit(repository_path):
     repo = Repository(repository_path)
 
     commit_changes = defaultdict(lambda: {'added': 0, 'removed': 0, 'equal': 0, 'ref': 0})
